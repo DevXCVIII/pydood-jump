@@ -62,7 +62,7 @@ class Player:
         self.body.CreateFixture(shape=hitbox, density=1, friction=0.3)
 
         # Sprite setup
-        self.sprite = pygame.image.load("../assets/space-left@2x.png").convert_alpha()
+        self.sprite = pygame.image.load("assets/space-left@2x.png").convert_alpha()
         self.sprite = pygame.transform.scale(
             self.sprite, (settings.PLAYER_SPRITE_WIDTH, settings.PLAYER_SPRITE_HEIGHT)
         )

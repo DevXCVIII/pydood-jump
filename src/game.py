@@ -60,7 +60,7 @@ class Game:
         self.player = Player(self.world)
 
         # Load the background image
-        self.background = pygame.image.load("../assets/space-bck@2x.png")
+        self.background = pygame.image.load("assets/space-bck@2x.png")
 
         # Initialize the camera offset for scrolling
         self.camera_offset = 0
