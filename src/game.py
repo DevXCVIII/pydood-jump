@@ -53,14 +53,14 @@ class Game:
         self.state = "main-menu"
 
         # Load the game font for rendering text
-        #self.font = pygame.font.Font("../assets/fonts/FiraCode.ttf", 24)
+        #self.font = pygame.font.Font("../assets/FiraCode.ttf", 24)
         self.font = pygame.font.SysFont("Arial", 24)
 
         # Initialize the player
         self.player = Player(self.world)
 
         # Load the background image
-        self.background = pygame.image.load("../assets/backgrounds/space-bck@2x.png")
+        self.background = pygame.image.load("../assets/space-bck@2x.png")
 
         # Initialize the camera offset for scrolling
         self.camera_offset = 0
